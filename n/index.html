@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/a2e0b7b58b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Bonu</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Bosh sahifa</a></li>
+        <li><a href="#about">Men haqimda</a></li>
+        <li><a href="#projects">Loyihalar</a></li>
+        <li><a href="#contact">Aloqa</a></li>
+      </ul>
+      <div class="theme-toggle" id="themeToggle">🌙</div>
+    </nav>
+  </header>
+
+  <section id="home" class="home">
+    <div class="home-content">
+      <h1>Salom, men <span class="highlight">Bonu</span></h1>
+      <h2><span id="dynamic-text"></span></h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+      <div class="social-icons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+
+      <a href="#projects" class="btn">Loyihalarimni ko‘rish</a>
+    </div>
+
+    <div class="home-img">
+      <div class="image-frame">
+        <!-- Rasm joyi -->
+        <img src="img/download.jpg" alt="Bonu rasmi">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Men haqimda</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel felis in tellus suscipit interdum. Donec non dolor ac lorem feugiat mattis. Sed id mi sit amet turpis pretium tristique. Quisque eget nibh a magna tincidunt sodales.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Loyihalar</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Veb Portfolio Loyihasi</h3>
+        <p>Bu loyiha zamonaviy HTML, CSS, va JavaScript yordamida yaratilgan shaxsiy portfolio saytidir. U interaktiv dizayn, light/dark rejim, va smooth animatsiyalarga ega. Dizayn minimalist va professional ko‘rinishda bo‘lib, foydalanuvchi tajribasiga alohida e’tibor qaratilgan.</p>
+      </div>
+      <div class="project-card">
+        <h3>Online Kurs Platformasi</h3>
+        <p>React.js va Firebase yordamida ishlab chiqilgan ta’lim platformasi. Bu tizim foydalanuvchilarga video darslarni tomosha qilish, ro‘yxatdan o‘tish va o‘z shaxsiy profilini boshqarish imkonini beradi. Ma’lumotlar real vaqt rejimida yangilanadi.</p>
+      </div>
+      <div class="project-card">
+        <h3>Dizayn Mockup Loyihasi</h3>
+        <p>Figma orqali ishlab chiqilgan UI/UX dizayn konsepsiyasi. Loyihaning asosiy maqsadi — zamonaviy, soddaligi bilan foydalanuvchiga qulay interfeys yaratish. Rangsiz minimalizm va gradientlardan to‘g‘ri foydalanish orqali uyg‘unlik yaratilgan.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Aloqa</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Ismingiz" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Xabar yozing..." required></textarea>
+      <button type="submit" class="btn">Yuborish</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Bonu Barcha huquqlar himoyalangan.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
