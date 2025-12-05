@@ -1,8 +1,8 @@
 const textElement = document.getElementById("dynamic-text");
 const words = [
-   "Frontend dasturchiman 💻",
+   "Frontend dasturlashga qiziqaman 💻",
    "Veb-dizayn bilan shug‘ullanaman 🎨",
-   "Ijodkor va o‘rganishga chanqoqman 🌟"
+   "Ijodkorman 🌟"
 ];
 
 let wordIndex = 0;
